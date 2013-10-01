@@ -9,7 +9,7 @@ See bootstrap documentation for grids [here](http://getbootstrap.com/2.3.2/scaff
 
 Add the 'ngResponsive' module as a dependency in your app, then use it:
 
-= as tag attributes:
+- as tag attributes:
 
     <div container fluid>
         <div row fluid>
@@ -21,7 +21,7 @@ Add the 'ngResponsive' module as a dependency in your app, then use it:
         </div>
     </div>
 
-= as custom tags:
+- as custom tags:
 
     <container fluid>
         <row fluid>
