@@ -11,6 +11,7 @@ Add the 'ngResponsive' module as a dependency in your app, then use it:
 
 - as tag attributes:
 
+```
     <div container fluid>
         <div row fluid>
             <span block size="7" offset="1">...</span>
@@ -20,9 +21,11 @@ Add the 'ngResponsive' module as a dependency in your app, then use it:
             <span block></span>
         </div>
     </div>
+```
 
 - as custom tags:
 
+```
     <container fluid>
         <row fluid>
             <block size="7" offset="1">...</block>
@@ -33,3 +36,4 @@ Add the 'ngResponsive' module as a dependency in your app, then use it:
             <block>12 is the default size</block>
         </row>
     </container>
+```
